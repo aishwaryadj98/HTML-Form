@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Form</h2>
+
+<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  <br>
+  Email:<br>
+  <input type="text" name="email"><br>
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male">Male<br>
+  <input type="radio" name="gender" value="female">Female<br>
+  <br>
+  Academic program:<br>
+  <select name="academ" size="8" multiple>
+  <option value="Civil">Civil</option>
+  <option value="CS">Computer science</option>
+  <option value="Ec">Electronics and communication</option>
+  <option value="Mech">Mechanical</option>
+  <option value="Mechpro">Mechanical production</option>
+  <option value="EEE">Electrical and electronics</option>
+  <option value="Chem">Chemical</option>
+  <option value="Arch">Architecture</option>
+  </select>
+  <br>
+  <br>
+  Address:<br>
+  <textarea name="message" rows="5" cols="30">
+  </textarea><br>
+  <br>
+  Programming interests:<br>
+  <input type="checkbox" name="pi" value="py">Python<br>
+  <input type="checkbox" name="pi" value="c">C<br>
+  <input type="checkbox" name="pi" value="cpp">C++<br>
+  <input type="checkbox" name="pi" value="java">Java<br> 
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
